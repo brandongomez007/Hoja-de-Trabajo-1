@@ -7,3 +7,4 @@ Fondo oscuro en header y footer, texto claro en navegación y títulos
 Bordes redondeados en imágenes, márgenes y paddings
 
 #URL de la pagina web
+https://hojadetrabajo02.netlify.app/#actividades
