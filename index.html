@@ -5,74 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excursión a Belize</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Excursión a Belize</h1>
+    <header>
+        <h1>Excursión a Belize</h1>
+        <nav>
+            <ul>
+                <li><a href="#descripcion">Descripción</a></li>
+                <li><a href="#galeria">Galería de Imágenes</a></li>
+                <li><a href="#itinerario">Itinerario</a></li>
+                <li><a href="#actividades">Actividades</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav>
-        <a href="#descripcion">Descripción</a> |
-        <a href="#galeria">Galería de Imágenes</a> |
-        <a href="#itinerario">Itinerario</a> |
-        <a href="#actividades">Actividades</a>
-    </nav>
+    <main>
+        <section id="descripcion">
+            <h2>Descripción del Lugar</h2>
+            <p>Belize es un hermoso país ubicado en la costa noreste de América Central, famoso por sus playas, vida marina y la impresionante Barrera de Coral de Belize.</p>
+            <p>La mayor barrera de coral en el hemisferio norte y oeste, con 185 millas de aguas turquesas.</p>
+            <p>Belice es parte del importante corredor biológico mesoamericano, con gran diversidad biológica, tanto marina como terrestre. El país cuenta con una flora y fauna abundante.</p>
+            <p>La ciudadanía protege la gran biodiversidad y los recursos naturales.</p>
+        </section>
 
-    <section id="descripcion">
-        <h2>Descripción del Lugar</h2>
-        <p>Belize es un hermoso país ubicado en la costa noreste de América Central, famoso por sus playas, vida marina y la impresionante Barrera de Coral de Belize.</p>
-        <p>La mayor barrera de coral en el hemisferio norte y oeste, con 185 millas de aguas turquesas.</p>
-        <p>Belice es parte del importante corredor biológico mesoamericano, con gran diversidad biológica, tanto marina como terrestre. El país cuenta con una flora y fauna abundante.</p>
-        <p>La ciudadanía protege la gran biodiversidad y los recursos naturales.</p>
-    </section>
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res40/115000/115522-The-Great-Blue-Hole-At-Lighthouse-Reef.jpg" alt="La Gran Agujero Azul" width="200">
+            <img src="https://cdn.forbes.com.mx/2019/07/b1.jpg" alt="Playa en Belize" width="200">
+            <img src="https://www.beliceviajes.com/wp-content/uploads/2017/04/placencia-ranguana-caye-1-1200x800-1.jpg" alt="Isla en Belize" width="200">
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/bloomberglinea/K7PTYMKLKNAPDCRDUO7J3FDLII.jpg" alt="Vista aérea de Belize" width="200">
+        </section>
 
-    <section id="galeria">
-        <h2>Galería de Imágenes</h2>
-        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res40/115000/115522-The-Great-Blue-Hole-At-Lighthouse-Reef.jpg" alt="Imagen 1" width="200">
-        <img src="https://cdn.forbes.com.mx/2019/07/b1.jpg" alt="Imagen 2" width="200">
-        <img src="https://www.beliceviajes.com/wp-content/uploads/2017/04/placencia-ranguana-caye-1-1200x800-1.jpg" alt="Imagen 3" width="200">
-        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/bloomberglinea/K7PTYMKLKNAPDCRDUO7J3FDLII.jpg" alt="Imagen 4" width="200">
-    </section>
+        <section id="itinerario">
+            <h2>Itinerario de la Excursión</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Actividad</th>
+                        <th>Lugar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01/08/2024</td>
+                        <td>08:00 AM</td>
+                        <td>Visita a la Barrera de Coral</td>
+                        <td>Playa de Belize</td>
+                    </tr>
+                    <tr>
+                        <td>01/08/2024</td>
+                        <td>01:00 PM</td>
+                        <td>Almuerzo en Restaurante Local</td>
+                        <td>Centro de Belize</td>
+                    </tr>
+                    <tr>
+                        <td>02/08/2024</td>
+                        <td>09:00 AM</td>
+                        <td>Excursión a las Ruinas Mayas</td>
+                        <td>Xunantunich</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    <section id="itinerario">
-        <h2>Itinerario de la Excursión</h2>
-        <table border="1">
-            <tr>
-                <th>Fecha</th>
-                <th>Hora</th>
-                <th>Actividad</th>
-                <th>Lugar</th>
-            </tr>
-            <tr>
-                <td>01/08/2024</td>
-                <td>08:00 AM</td>
-                <td>Visita a la Barrera de Coral</td>
-                <td>Playa de Belize</td>
-            </tr>
-            <tr>
-                <td>01/08/2024</td>
-                <td>01:00 PM</td>
-                <td>Almuerzo en Restaurante Local</td>
-                <td>Centro de Belize</td>
-            </tr>
-            <tr>
-                <td>02/08/2024</td>
-                <td>09:00 AM</td>
-                <td>Excursión a las Ruinas Mayas</td>
-                <td>Xunantunich</td>
-            </tr>
-        </table>
-    </section>
-
-    <section id="actividades">
-        <h2>Lista de Actividades</h2>
-        <ul>
-            <li>Snorkeling en la Barrera de Coral</li>
-            <li>Exploración de Ruinas Mayas</li>
-            <li>Visita a la Isla de San Pedro</li>
-            <li>Tour de la Jungla</li>
-            <li>Pesca Deportiva</li>
-        </ul>
-    </section>
+        <section id="actividades">
+            <h2>Lista de Actividades</h2>
+            <ul>
+                <li>Snorkeling en la Barrera de Coral</li>
+                <li>Exploración de Ruinas Mayas</li>
+                <li>Visita a la Isla de San Pedro</li>
+                <li>Tour de la Jungla</li>
+                <li>Pesca Deportiva</li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
         <p>Desarrollado por Brandon Gomez 9490-20-49</p>
